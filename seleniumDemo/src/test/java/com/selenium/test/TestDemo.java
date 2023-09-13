@@ -14,10 +14,12 @@ public class TestDemo {
 		 testbase=new TestBase();
 	}
 
+	//New comment added
 	@BeforeTest
 	public void setUp() throws InterruptedException {
 		
 		testbase.initialization();
+		System.out.println("Initialized........");
 		
 	}
 	
